@@ -3,16 +3,16 @@ O Docker é uma plataforma aberta para desenvolver, distribuir e executar aplica
 
 [documentation](https://docs.docker.com/get-started/get-docker/)
 
-Ele remove tudo continers, redes, etc
+> Remove tudo, continers, redes, etc
+>
+> ```docker system prune -a```
 
-```docker system prune -a```
+> ```docker compose build --no-cache```
 
-```docker compose build --no-cache```
+> ```docker compose up```
 
-```docker compose up```
+> ```docker compose down```
 
-```docker compose down```
-
-Acesso ao terminal do container
-
-```docker exec -it <container id> bash```
+>Acesso ao terminal do container
+>
+> ```docker exec -it <container id> bash```
